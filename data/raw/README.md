@@ -1,0 +1,23 @@
+﻿# Raw data
+- main_economic_indicators0123_raw.csv
+-- This file contains the complete main economic indicators of the OECD as of January 2023
+-- Series code column: the total series code that contains the country, subject and measure
+-- LOCATION columm: the code for the country
+-- Country columm: the name of country written out
+-- SUBJECT columm: the code for the variable
+-- Subject columm: the variable written out
+-- MEASURE columm: the code for the measure of the variable
+-- Measure columm: the measure of the variable written out
+-- UNIT CODE columm: the code for the unit of the measure
+-- Unit columm: the unit of the measure written out
+-- POWERCODE columm: the code of the power code of the unit
+-- Power code columm: the power code of the unit written out
+-- REFERENCE columm: the code of a reference year if it is used
+-- Reference column: the reference year written out if it used
+-- Other columns: the yearly, quarterly and monthly data
+- quarterly_manual_data.csv
+-- This file contains the data we manually added that was only available quarterly
+-- It is structured in the same way as main_economic_indicators0123_raw.csv, but it only contains quarterly data
+- manuallyAddedFeatures.csv
+-- This file contains the data we added that was available monthly and the interpolated quarterly data
+-- It is structured in the same way as main_economic_indicators0123_raw.csv, but it only contains monthly data
